@@ -11,5 +11,5 @@ You can view the supplemental material [here] (link soon).
 
 ### Code and Extras
 
-You can find additional resources on [Github]. (Coming Soon)
+You can find additional resources on [Github](https://github.com/HKUST-RML/LearnFromInteraction).
   
