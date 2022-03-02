@@ -22,14 +22,14 @@ If you want to train your own model, please run the following code:
 python main.py --play-only==False
 ```
 
-## 5. Testing
-### 5.1 Test in Simulation
+## 4. Testing
+### 4.1 Test in Simulation
 We provide a testing script to evaluate our trained model in simulation. The following code runs the test on three trained objects, and report the average grasp success rates.
 ```
 python main.py --play-only==True
 ```
 
-### 5.2 Test on Real Robot (UR10)
+### 4.2 Test on Real Robot (UR10)
 Here we provide the steps to test our method on a real robot.
 
 **Robot control**
