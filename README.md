@@ -14,3 +14,41 @@ In this work, we present an end-to-end reinforcement learning (RL) framework, wh
 The code is built with Python 3.6. Dependencies are listed in [[requirements.yaml](https://github.com/HKUST-RML/Learning-to-Grasp-by-Digging_v2/blob/main/requirements.yaml "requirements.yaml")] and can be installed via [Anaconda](https://www.anaconda.com/) by running:
 
     conda env create -n learn_interaction -f requirements.yaml
+
+## 3. Training
+
+If you want to train your own model, please run the following code:
+```
+python main.py --play-only==False
+```
+
+## 5. Testing
+### 5.1 Test in Simulation
+We provide a testing script to evaluate our trained model in simulation. The following code runs the test on three trained objects, and report the average grasp success rates.
+```
+python main.py --play-only==True
+```
+
+### 5.2 Test on Real Robot (UR10)
+Here we provide the steps to test our method on a real robot.
+
+**Robot control**
+
+Robot is controlled via [this python software](https://github.com/SintefManufacturing/python-urx).
+
+**Camera setup**
+
+To deploy RealSense L515 camera,
+1. Download and install the [librealsense SDK 2.0](https://github.com/IntelRealSense/librealsense)
+2. Our camera setting can be found in ```real/640X480_L_short_default.json```
+
+**Start testing**
+
+Then run the following code to start testing:
+```
+cd real
+python test_in_real.py
+```
+
+## Maintenance 
+For any technical issues, please contact: Chao Zhao (czhaobb@connect.ust.hk).
