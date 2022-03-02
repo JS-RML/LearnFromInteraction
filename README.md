@@ -1,4 +1,4 @@
-## Learn  from  Interaction:  Learning  Picking  Policy  via  ReinforcementLearning  over  Challenging  Clutter
+## Learn  from  Interaction:  Learning  Picking  Policy  via  ReinforcementLearning  in  Challenging  Clutter
 
 ___
 ### Video
