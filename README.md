@@ -11,7 +11,7 @@ You can view the supplemental material [here] (link soon).
 
 ### Code and Extras
 
-(Coming Soon).
+We are extending the work into journal.
 
 
 
